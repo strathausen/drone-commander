@@ -5,16 +5,16 @@ client.config('control:altitude_max', 1600)
 
 actions =
   k: 'front'
-  h: 'left'
-  l: 'right'
   j: 'back'
+  l: 'right'
+  h: 'left'
   t: 'takeoff'
   q: 'land'
   s: 'stop'
   K: 'up'
   J: 'down'
-  H: 'clockwise'
   L: 'counterClockwise'
+  H: 'clockwise'
 
 charm.on 'data', (c) ->
   k = String.fromCharCode c.toString()
