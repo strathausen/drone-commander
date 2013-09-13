@@ -1,0 +1,15 @@
+{
+  "name": "command-drone",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "charm": "~0.1.2",
+    "ar-drone": "~0.2.0"
+  }
+}
